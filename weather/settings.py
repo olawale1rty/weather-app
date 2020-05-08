@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 's((*w061hul^l!+z-e*h!%8f$$1s9j
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['weatrack.herokuapp.com','127.0.0.1']
 
 
 # Application definition
