@@ -11,3 +11,4 @@ class City(models.Model):
 
     class Meta: #show the plural of city as cities instead of citys
         verbose_name_plural = 'cities'
+        ordering = ['name']
